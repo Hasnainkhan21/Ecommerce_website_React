@@ -1,5 +1,6 @@
 import React from 'react';
 import { Categories } from '../assets/MockData';  // Ensure the path is correct
+import InfoSection from '../Components/infoSection';
 
 const Home = () => {
 
@@ -31,6 +32,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <InfoSection />
         </div>
     )
 }
