@@ -13,10 +13,10 @@ const ProductCard = ({ product }) => {
                 <FaStar className="text-yellow-500" />
                 <FaStar className="text-yellow-500" />
             </div>
-            <div class="absolute bottom-4 right-2 flex items-center justify-center w-8 h-8 bg-red-600 
-            group text-white text-sm rounded-full hover:w-32 hover:w-32 hover:bg-red-700 transition-all ">
-                <span class="group-hover:hidden">+</span>
-                <span class="hidden group-hover">Add to Cart</span>
+            <div className="absolute bottom-4 right-2 flex items-center justify-center w-8 h-8 bg-red-600 
+            group text-white text-sm rounded-full hover:w-20 hover:bg-red-700 transition-all ">
+                <span className="group-hover:hidden">+</span>
+                <span className="hidden group-hover">Add to Cart</span>
             </div>
         </div>
     );

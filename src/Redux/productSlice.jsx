@@ -5,7 +5,7 @@ const initialState = {
 };
 
 const productSlice = createSlice({
-    name: 'product', // Unique name for this slice
+    name: 'product', 
     initialState,
     reducers: {
         setProducts(state, action) {
