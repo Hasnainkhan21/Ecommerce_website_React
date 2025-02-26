@@ -6,27 +6,27 @@ export default function InfoSection() {
 
     const infoItems = [
         {
-            icon: <FaShippingFast />,
+            icon: <FaShippingFast color="red" />,
             title: 'Free Shipping',
             description: 'Free shipping on all orders'
         },
         {
-            icon: <FaHeadset />,
+            icon: <FaHeadset color="red"  />,
             title: 'Support 24/7',
             description: 'We are here to help you 24/7'
         },
         {
-            icon: <FaMoneyBillWave />,
+            icon: <FaMoneyBillWave color="red"  />,
             title: '100% Money Back',
             description: 'Full refund if you are not satisfied'
         },
         {
-            icon: <FaLock />,
+            icon: <FaLock color="red"  />,
             title: 'Payment Secure',
             description: 'Your payement information is safe with us'
         },
         {
-            icon: <FaTag />,
+            icon: <FaTag color="red"  />,
             title: 'Discount',
             description: 'Enjoy the best prices on our products'
         }
