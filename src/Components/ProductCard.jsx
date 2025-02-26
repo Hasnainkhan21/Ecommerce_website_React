@@ -14,10 +14,13 @@ const ProductCard = ({ product }) => {
                 <FaStar className="text-yellow-500" />
             </div>
             <div className="absolute bottom-4 right-2 flex items-center justify-center w-8 h-8 bg-red-600 
-            group text-white text-sm rounded-full hover:w-20 hover:bg-red-700 transition-all ">
-                <span className="group-hover:hidden">+</span>
-                <span className="hidden group-hover">Add to Cart</span>
-            </div>
+            group text-amber-100 text-sm rounded-full hover:w-20 hover:bg-red-700 transition-all">
+  <span className="group-hover:hidden">+</span>
+  <span className="hidden group-hover:inline-block opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+    Add to Cart
+  </span>
+</div>
+
         </div>
     );
 };
